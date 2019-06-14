@@ -8,7 +8,7 @@ This C++ header-only library enables the use of C++ standard iostreams to access
 
 For input access (decompression), the compression format is auto-detected, and multiple concatenated compressed streams are decompressed seamlessly.
 
-For output access (compression), the only parameter exposed by this API is the compression level.
+For output access (compression), the buffer size, the compression level and the window bits (zlib compression or gzip compression) can be specified by this API.
 
 Alternatives to this library include:
 
